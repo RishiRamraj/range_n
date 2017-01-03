@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -it -v ${PWD}/results:/results rishiramraj/range_n bash

@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -it -v ${PWD}/results:/results rishiramraj/range_n valgrind --tool=massif --massif-out-file=/results/massif.out --time-unit=$1 python -c 'range(1000000)'

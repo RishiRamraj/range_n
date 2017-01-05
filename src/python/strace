@@ -1,2 +1,2 @@
 #!/bin/sh
-strace python small.py
+strace python benchmark.py

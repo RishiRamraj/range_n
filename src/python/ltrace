@@ -1,2 +1,2 @@
 #!/bin/sh
-ltrace python small.py
+ltrace python benchmark.py

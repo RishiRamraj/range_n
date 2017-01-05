@@ -1,0 +1,2 @@
+#!/bin/sh
+ltrace -tt -e malloc -l python python -c "range(10000)" 2>&1 | grep "malloc" | sed "s/python.*(//" | sed "s/).*//" | gnuplot -p -e "set xdata time; set timefmt '%H:%M:%S'; plot '<cat' using 1:2 with lines"

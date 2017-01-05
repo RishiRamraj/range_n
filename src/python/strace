@@ -1,2 +1,2 @@
 #!/bin/sh
-strace python test.py
+strace python benchmark.py

@@ -1,2 +1,2 @@
 #!/bin/sh
-strace ./benchmark
+strace -e memory ./benchmark

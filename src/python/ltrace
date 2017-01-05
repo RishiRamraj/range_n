@@ -1,2 +1,2 @@
 #!/bin/sh
-ltrace -e malloc -l python python benchmark.py 2>&1 | sed "s/).*//" | sed "s/.*(//" | sort -nr | uniq -c
+ltrace -c python benchmark.py

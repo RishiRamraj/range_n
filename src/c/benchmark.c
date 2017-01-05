@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-#define LENGTH 1000000
+#define LENGTH 10000000
 
 int main()
 {

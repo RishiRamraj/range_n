@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -it rishiramraj/range_n valgrind --tool=exp-dhat python -c 'range(1000000)'
+docker run -it rishiramraj/range_n valgrind --tool=exp-dhat python -c 'range(10000000)'

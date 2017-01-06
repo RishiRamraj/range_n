@@ -1,2 +1,2 @@
 #!/bin/sh
-strace python benchmark.py
+strace -c -e memory python benchmark.py

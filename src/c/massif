@@ -1,2 +1,2 @@
 #!/bin/sh
-valgrind --tool=massif ./benchmark
+valgrind --tool=massif --stacks=yes --time-unit=$1 ./benchmark
